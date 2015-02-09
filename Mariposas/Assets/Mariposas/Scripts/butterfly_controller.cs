@@ -4,19 +4,23 @@ using System.Collections;
 public class butterfly_controller : MonoBehaviour {
 
 	public Camera camera;
-	public float accelerationTrigger;
+	float accelerationTrigger=1;
 	bool flying=false;
 	float ceiling=688;
 	string gui="eins";
 	public AudioSource noise1;
+	public butterfly_spawner butterflySpawner;
+
 	// Use this for initialization
 	void Start () {
 		rigidbody.AddRelativeTorque (new Vector3(Random.Range(-400,400),Random.Range(-400,400),Random.Range(-400,400)));
 		Invoke ("toggleState", 3);
+		Invoke ("destroy", Random.Range(butterflySpawner.item_lifetime, butterflySpawner.item_lifetime+10));
 	}
 	
 	public void destroy()
 	{
+		butterflySpawner.objetosExistentes--;
 		Object.Destroy(gameObject);
 	}
 
