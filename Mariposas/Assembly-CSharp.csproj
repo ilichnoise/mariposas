@@ -49,6 +49,7 @@
      <Compile Include="Assets\Mariposas\Scripts\butterfly_controller.cs" />
      <Compile Include="Assets\Mariposas\Scripts\butterfly_spawner.cs" />
      <Compile Include="Assets\Mariposas\Scripts\cameraRotation_controller.cs" />
+     <Compile Include="Assets\Mariposas\Scripts\locationServices.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CylinderTargetBehaviour.cs" />

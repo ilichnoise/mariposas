@@ -58,6 +58,6 @@ public class butterfly_controller : MonoBehaviour {
 			gui="zwei";
 	}
 	void OnGUI() {
-		GUI.Label(new Rect(10, 10, 100, 20), gui);
+		//GUI.Label(new Rect(10, 10, 100, 20), gui);
 	}
 }
