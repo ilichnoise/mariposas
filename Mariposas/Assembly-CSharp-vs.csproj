@@ -50,6 +50,8 @@
      <Compile Include="Assets\Mariposas\Scripts\butterfly_spawner.cs" />
      <Compile Include="Assets\Mariposas\Scripts\cameraRotation_controller.cs" />
      <Compile Include="Assets\Mariposas\Scripts\locationServices.cs" />
+     <Compile Include="Assets\Mariposas\Scripts\objectDestroyer.cs" />
+     <Compile Include="Assets\Mariposas\Scripts\parseManager.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CylinderTargetBehaviour.cs" />
@@ -95,10 +97,14 @@
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\VideoBackground.shader" />
      <None Include="Assets\Editor\QCAR\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\DepthMask.shader" />
+     <None Include="Assets\Parse\Parse.Unity.xml" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\BrightTexture.shader" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\Text3D.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Parse.Unity">
+ <HintPath>/Users/schule/Unity/Mariposas/Mariposas/Assets/Parse/Parse.Unity.dll</HintPath>
  </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions">
  <HintPath>/Users/schule/Unity/Mariposas/Mariposas/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
