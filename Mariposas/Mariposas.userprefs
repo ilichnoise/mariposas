@@ -1,12 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Mariposas/Scripts/parseManager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/QCAR/Scripts/ComponentFactoryStarter/ComponentFactoryStarter.cs">
     <Files>
-      <File FileName="../../StarDate/StarDate/Assets/Scripts/characterAnimation_controller.cs" Line="25" Column="38" />
-      <File FileName="Assets/Mariposas/Scripts/locationServices.cs" Line="42" Column="2" />
-      <File FileName="Assets/Mariposas/Scripts/butterfly_controller.cs" Line="21" Column="1" />
-      <File FileName="Assets/Mariposas/Scripts/parseManager.cs" Line="34" Column="29" />
-      <File FileName="Assets/Mariposas/Scripts/objectDestroyer.cs" Line="15" Column="2" />
+      <File FileName="Assets/Mariposas/Scripts/parseManager.cs" Line="21" Column="27" />
+      <File FileName="../../StarDate/StarDate/Assets/Scripts/characterAnimation_controller.cs" Line="1" Column="1" />
+      <File FileName="Assets/Mariposas/Scripts/locationServices.cs" Line="1" Column="1" />
+      <File FileName="Assets/Mariposas/Scripts/butterfly_controller.cs" Line="1" Column="1" />
+      <File FileName="Assets/Mariposas/Scripts/objectDestroyer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Editor/QCAR/Scripts/ComponentFactoryStarter/ComponentFactoryStarter.cs" Line="23" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

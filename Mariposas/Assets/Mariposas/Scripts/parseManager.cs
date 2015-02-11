@@ -8,57 +8,38 @@ using System.Collections.Generic;
 public class parseManager : MonoBehaviour {
 
 	public string playerName="gerardo2";
-	public string nameFromParse;
+	public string nameFromParse="eins";
 	public InputField inputField;
 	public int score;
 
 	// Use this for initialization
 	public void retrievePlayerData () {
-
-		/*ParseQuery<ParseObject> query = ParseObject.GetQuery("Usuario").WhereEqualTo("idFacebook",playerName);
-		query.FindAsync().ContinueWith(t => 
-		                               {
-		});
-		*/
-	//	ArrayList<ParseObject> results  =new ArrayList<ParseObject>();
-		//IEnumerable<Parse.ParseObject> results=new;
-
 		ParseQuery<ParseObject> query = ParseObject.GetQuery("Usuario").WhereEqualTo("idFacebook",playerName);
-		//query.OrderBy("HighScore").ThenByDescending("PlayerName").Limit(5);
-
 		query.FindAsync().ContinueWith(t =>
-		    {
-			Debug.Log("Entro al async");
-			//results =(List<ParseObject>) t.Result;
-			IEnumerable<ParseObject> results =(IEnumerable<ParseObject>) t.Result;
-			Debug.Log("Data"+results.);
-			foreach (ParseObject obj in results)
-			{
-				ParseObject id = obj.Get<ParseObject>("idFacebook");
-				Debug.Log("Score: ");
+		                               {
+			IEnumerable<ParseObject> results = t.Result;
+
+			foreach(ParseObject parseObject in results){
+				nameFromParse = parseObject.Get<string>("idFacebook");
+				Debug.Log(nameFromParse);
 			}
 		});
-		Debug.Log ("retrieveing...");
 
-		//Debug.Log ("afdgeragraeg"+result["idFacebook"]);
+
+		/*
+		var query = ParseObject.GetQuery("Maintenances")
+			.WhereEqualTo("z", "b");
+		IEnumerable<ParseObject> results = await query.FindAsync();
 		
-
-		/*query.FindAsync().ContinueWith(t =>
-		                               {
-			IEnumerable<Parse.ParseObject> results = t.Result;
-			//ParseQuery<ParseObject> retrievedGameState = t;
-			//score = retrievedGameState.Get<int>("score");
-		});*/
-
-
-
-		//Retrieve score
-		/*ParseQuery<ParseObject> query = ParseObject.GetQuery("Usuario").WhereExists(playerName);
-		query.GetAsync("rfENQs8joB").ContinueWith(t =>
-		                                          {
-			ParseObject retrievedGameState = t.Result;
-			nameFromParse = retrievedGameState.Get<string>("idFacebook");
-		});*/
+		
+		
+		foreach (var record in results)
+		{
+			Console.WriteLine("in for each");
+			var docket = record.Get<String>("Docket");
+			Console.WriteLine(docket);
+		}
+		*/
 	}
 
 
