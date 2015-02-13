@@ -1,13 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/QCAR/Scripts/ComponentFactoryStarter/ComponentFactoryStarter.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Mariposas/Scripts/butterfly_controller.cs">
     <Files>
-      <File FileName="Assets/Mariposas/Scripts/parseManager.cs" Line="21" Column="27" />
+      <File FileName="Assets/Mariposas/Scripts/parseManager.cs" Line="28" Column="1" />
       <File FileName="../../StarDate/StarDate/Assets/Scripts/characterAnimation_controller.cs" Line="1" Column="1" />
       <File FileName="Assets/Mariposas/Scripts/locationServices.cs" Line="1" Column="1" />
-      <File FileName="Assets/Mariposas/Scripts/butterfly_controller.cs" Line="1" Column="1" />
+      <File FileName="Assets/Mariposas/Scripts/butterfly_controller.cs" Line="54" Column="5" />
       <File FileName="Assets/Mariposas/Scripts/objectDestroyer.cs" Line="1" Column="1" />
-      <File FileName="Assets/Editor/QCAR/Scripts/ComponentFactoryStarter/ComponentFactoryStarter.cs" Line="23" Column="54" />
+      <File FileName="Assets/custom_scripts_app/App/Canvas/LoginCanvasMethods.cs" Line="1" Column="1" />
+      <File FileName="Assets/custom_scripts_app/ParseManager/UserManagerParse.cs" Line="1" Column="1" />
+      <File FileName="Assets/Mariposas/Scripts/butterfly_spawner.cs" Line="1" Column="1" />
+      <File FileName="Assets/custom_scripts_app/Facebook/INIT_FB_BASIC.cs" Line="1" Column="1" />
+      <File FileName="Assets/custom_scripts_app/Facebook/FB_METHODS.cs" Line="44" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

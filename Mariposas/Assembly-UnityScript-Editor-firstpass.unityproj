@@ -68,8 +68,11 @@
  <Reference Include="Qualcomm.Vuforia.UnityExtensions.Editor">
  <HintPath>/Users/schule/Unity/Mariposas/Mariposas/Assets/Editor/QCAR/Scripts/Qualcomm.Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="IFacebook">
+ <HintPath>/Users/schule/Unity/Mariposas/Mariposas/Assets/Facebook/Scripts/IFacebook.dll</HintPath>
+ </Reference>
  <Reference Include="Parse.Unity">
- <HintPath>/Users/schule/Unity/Mariposas/Mariposas/Assets/Parse/Parse.Unity.dll</HintPath>
+ <HintPath>/Users/schule/Unity/Mariposas/Mariposas/Assets/Parse.Unity/Parse.Unity.dll</HintPath>
  </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions">
  <HintPath>/Users/schule/Unity/Mariposas/Mariposas/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>

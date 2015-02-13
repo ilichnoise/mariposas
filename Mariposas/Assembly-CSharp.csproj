@@ -46,6 +46,19 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Facebook\Scripts\AndroidFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\AndroidFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\CanvasFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebookAccessToken.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FB.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBAppRequestsFilterGroup.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBScreen.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBSettings.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IOSFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IOSFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\NativeDialogModes.cs" />
      <Compile Include="Assets\Mariposas\Scripts\butterfly_controller.cs" />
      <Compile Include="Assets\Mariposas\Scripts\butterfly_spawner.cs" />
      <Compile Include="Assets\Mariposas\Scripts\cameraRotation_controller.cs" />
@@ -88,6 +101,11 @@
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\custom_scripts_app\App\Canvas\LoginCanvasMethods.cs" />
+     <Compile Include="Assets\custom_scripts_app\App\Classes\User.cs" />
+     <Compile Include="Assets\custom_scripts_app\Facebook\FB_METHODS.cs" />
+     <Compile Include="Assets\custom_scripts_app\Facebook\INIT_FB_BASIC.cs" />
+     <Compile Include="Assets\custom_scripts_app\ParseManager\UserManagerParse.cs" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\RenderVideoBackground.shader" />
@@ -103,8 +121,11 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>
+ <Reference Include="IFacebook">
+ <HintPath>/Users/schule/Unity/Mariposas/Mariposas/Assets/Facebook/Scripts/IFacebook.dll</HintPath>
+ </Reference>
  <Reference Include="Parse.Unity">
- <HintPath>/Users/schule/Unity/Mariposas/Mariposas/Assets/Parse/Parse.Unity.dll</HintPath>
+ <HintPath>/Users/schule/Unity/Mariposas/Mariposas/Assets/Parse.Unity/Parse.Unity.dll</HintPath>
  </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions">
  <HintPath>/Users/schule/Unity/Mariposas/Mariposas/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>

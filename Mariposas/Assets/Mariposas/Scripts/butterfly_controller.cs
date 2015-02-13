@@ -51,6 +51,7 @@ public class butterfly_controller : MonoBehaviour {
 			gui = "eins";
 			if(Input.acceleration.x>accelerationTrigger||Input.acceleration.y>accelerationTrigger||Input.acceleration.z>accelerationTrigger){
 				noise1.Play();
+				UserManagerParse.IncreasePoint();
 				destroy();
 			}
 		}

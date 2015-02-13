@@ -9,10 +9,13 @@ public class butterfly_spawner : MonoBehaviour {
 	public float item_lifetime;
 	public AudioSource audioSource;
 	public int objetosExistentes=0;
+	bool hasStarted=false;
 	// Use this for initialization
 	void Start () {
-		spawnSetOfItems ();
+
+
 	}
+	
 
 	//Spawn a single item
 	void spawnItem(){
@@ -44,8 +47,15 @@ public class butterfly_spawner : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (objetosExistentes < 5) {
-			Invoke ("spawnItem",2);
+		if (FB.IsLoggedIn&&!hasStarted) {
+			spawnSetOfItems ();
+			hasStarted=true;
+		}
+
+		if (FB.IsLoggedIn) {
+			if (objetosExistentes < 5) {
+				Invoke ("spawnItem", 2);
+			}
 		}
 	}
 }
